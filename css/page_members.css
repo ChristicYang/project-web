@@ -1,0 +1,171 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.headImage {
+    height: 880px;
+    width: 100%;
+    background: rgb(0, 0, 0);
+    position: absolute;
+    top:0px;
+}
+
+.headTop {
+    height: 90px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8) ;
+    border-bottom: 2px solid rgb(206, 33, 33);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Microsoft YaHei, sans-serif;
+    text-align: center;
+    position: fixed;
+}
+
+.headText:hover{
+    color: rgb(231, 3, 3);
+}
+
+.headTextActive{
+    color:rgb(231, 3, 3);
+}
+
+.headLeft {
+    height: 90px;
+    width: 50%;
+    float: left;
+    margin: 2% 0px;
+    word-spacing: 35px;
+}
+
+.headRight {
+    height: 90px;
+    width: 50%;
+    float: right;
+    margin: 2% -132.5px;
+    word-spacing: 100px;
+}
+
+.footLeft {
+    height: 100%;
+    width: 40%;
+    float: left;
+}
+
+.members{
+    height: 67%;
+    width: 75%;
+    margin: 8.5% auto;
+}
+
+.theme{
+    height: 15%;
+    text-align: center;
+    margin-top: 5px;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.character{
+    height: 85%;
+    width: 85%;
+    margin: 0px auto;
+}
+
+.chA{
+    height:100%;
+    width: 25%;
+    float: left;
+}
+
+.ImA{
+    height:100%;
+    width: 90%;
+    background: url("../image/TanZhilan.png") no-repeat;
+    background-size: cover;
+    margin-top: 8%;
+}
+
+.ImA:hover{
+    transition-duration: 200ms;
+    transform:  scale(1.1);
+}
+
+.chB{
+    height:100%;
+    width: 25%;
+    float: left;
+}
+
+.ImB{
+    height:100%;
+    width: 90%;
+    background: url("../image/ShanYi.png") no-repeat;
+    background-size: cover;
+    margin-top: 40%;
+}
+
+.ImB:hover{
+    transition-duration: 200ms;
+    transform: scale(1.1);
+}
+
+.chC{
+    height:100%;
+    width: 25%;
+    float: left;
+}
+
+.ImC{
+    height:100%;
+    width: 90%;
+    background: url("../image/YiZhizhu.jpg") no-repeat;
+    background-size: cover;
+    margin-top: 10%;
+}
+
+.ImC:hover{
+    transition-duration: 200ms;
+    transform:  scale(1.1);
+}
+
+.chD{
+    height:100%;
+    width: 25%;
+    float: left;
+}
+
+.ImD{
+    height:100%;
+    width: 90%;
+    background: url("../image/MiDouzi.png") no-repeat;
+    background-size: cover;
+    margin-top: 30%;
+}
+
+.ImD:hover{
+    transition-duration: 200ms;
+    transform:  scale(1.1);
+}
+
+.footRight {
+    height: 100%;
+    width: 60%;
+    float: right;
+}
+
+.logo {
+    height: 100px;
+    width: 331px;
+    background: url("../image/AniPlex.jpg") no-repeat;
+    background-size: cover;
+    margin: 16.87% auto;
+}
+
+.Information {
+    width: 80%;
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 11% 0px;
+}

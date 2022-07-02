@@ -1,0 +1,130 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.headImage {
+    height: 900px;
+    background: url("../image/Firstpage.png") no-repeat;
+    background-size: cover;
+}
+
+.headTop {
+    height: 90px;
+    width: 100%;
+    background: rgb(0, 0, 0, 0.8);
+    border-bottom: 2px solid rgb(206, 33, 33);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Microsoft YaHei, sans-serif;
+    text-align: center;
+    position: fixed;
+}
+
+.headText:hover {
+    color: rgb(231, 3, 3);
+}
+
+.headTextActive {
+    color: rgb(231, 3, 3);
+}
+
+.headLeft {
+    height: 90px;
+    width: 50%;
+    float: left;
+    margin: 2% 0px;
+    word-spacing: 35px;
+}
+
+.headRight {
+    height: 90px;
+    width: 50%;
+    float: right;
+    margin: 2% -132.5px;
+    word-spacing: 100px;
+}
+
+.meun {
+    height: 40%;
+    width: 70%;
+    background: rgb(40, 40, 40, 0.8);
+    position: absolute;
+    top: 75%;
+    left: 15%;
+    border: 2px solid rgba(124, 25, 25, 0.6);
+}
+
+.newsImage {
+    height: 80%;
+    width: 52%;
+    background: url("../image/news.jpg") no-repeat;
+    background-size: cover;
+    float: left;
+    margin: 30px 10px;
+}
+
+.newsText {
+    width: 55.2%;
+    background: rgb(0, 0, 0, 0.4);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Microsoft YaHei, sans-serif;
+    color: whitesmoke;
+    margin-top: 38%;
+    margin-left: 1%;
+}
+
+.text {
+    margin-left: 5px;
+}
+
+.newsList {
+    height: 80%;
+    width: 45%;
+    float: right;
+    margin: 30px 0px;
+}
+
+.theme {
+    height: 25%;
+    font-size: 30px;
+    font-weight: bold;
+    border-bottom: 1px solid rgb(245, 245, 245, 0.6);
+}
+
+.news {
+    height: 13%;
+    font-size: 17px;
+    color: whitesmoke;
+    font-weight: normal;
+    border-bottom: 1px solid rgb(245, 245, 245, 0.6);
+    margin-top: 5px;
+}
+
+.footLeft {
+    height: 100%;
+    width: 40%;
+    float: left;
+}
+
+.footRight {
+    height: 100%;
+    width: 60%;
+    float: right;
+}
+
+.logo {
+    height: 100px;
+    width: 331px;
+    background: url("../image/AniPlex.jpg") no-repeat;
+    background-size: cover;
+    margin: 16.87% auto;
+}
+
+.Information {
+    width: 80%;
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 11% 0px;
+}
